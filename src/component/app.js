@@ -1,13 +1,17 @@
-import React, { Component } from 'react'
-
-export class App extends Component {
-    render() {
-        return (
-            <div>
-                mohamed
-            </div>
-        )
-    }
+import React, { Component } from 'react';
+import SwipeableTemporaryDrawer from "./navbar";
+import Cardi from "../component/card"
+//import "../styles/styles.scss";
+//import "../style";
+const App = () => {
+    
+    return (
+        <div>
+            <SwipeableTemporaryDrawer/>
+            <Cardi />
+        </div>
+    )
 }
+
 
 export default App
