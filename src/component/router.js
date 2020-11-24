@@ -3,17 +3,12 @@ import { Route , BrowserRouter , Link  }from "react-router-dom";
 import App from "./app";
 import Shop from "./shop";
 import About from "./about";
+import Example from "./Main";
 
 const Approute = () => {
 
     return (
-            <BrowserRouter >
-                <div> 
-                    <Route component={App} path="/" exact={true} />
-                    <Route component={Shop} path="/shop"  exact={true}/>
-                    <Route component={About} path="/about"  exact={true}/>
-                </div>
-            </BrowserRouter>
+            <Example />
     
     )
 }
